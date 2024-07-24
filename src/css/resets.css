@@ -1,0 +1,42 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body{
+  width: 100vw;
+  font-family: "Inter", sans-serif;
+  background-color: #fffafa;
+}
+
+body.active{
+  background-color: #292929;
+}
+
+body.active h1{
+  color: #fffafa;
+}
+
+body.active p{
+  color: #fffafa;
+}
+
+body.active a{
+  color: #fffafa;
+}
+
+body.active span{
+  color: #fffafa;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+p{
+  font-weight: 500;
+  color: #2a2b32;
+}

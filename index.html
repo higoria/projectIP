@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <title>Cidade Wiki</title>
+  <link rel="stylesheet" href="src/css/imports.css">
+</head>
+
+<body>
+  <header class="headerConteiner">
+    <h1>Cidade Wiki</h1>
+
+    <div class="IpETema">
+      <a href="https://nordvpn.com/pt-br/what-is-my-ip/" target="_blank">
+        <p>Encontre seu IP</p>
+      </a>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </header>
+
+  <section class="btnMenu">
+    <div class="menu">
+      <label class="hamburger">
+        <input type="checkbox">
+        <svg viewBox="0 0 32 32">
+          <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+          <path class="line" d="M7 16 27 16"></path>
+        </svg>
+      </label>
+    </div>
+  </section>
+
+  <main class="mainConteiner">
+    <div class="conteiner">
+      <div class="LadoEsquerdo">
+        <h1>Pesquisa de endereço de IP: Descubra tudo sobre sua geolocalização pelo seu IP</h1>
+        <p>Insira o IP que você deseja pesquisar</p>
+        <form action="" class="form">
+          <input type="search" name="IP" id="1" class="inputPesquisa" placeholder="177.11.94.221">
+          <button class="btn" type="submit">Localizar IP</button>
+        </form>
+      </div>
+      <div class="ladoDireito">
+        <div class="col1">
+          <div class="pais">
+            <p><strong>País:</strong></p>
+            <span class="spanPais"></span>
+          </div>
+          <div class="estado">
+            <p><strong>Capital:</strong></p>
+            <span class="spanEstado"></span>
+          </div>
+          <div class="cidade">
+            <p><strong>Cidade:</strong></p>
+            <span class="spanCidade"></span>
+          </div>
+          <div class="populaçao">
+            <p><strong>População:</strong></p>
+            <span class="spanPopulaçao"></span>
+          </div>
+        </div>
+        <div class="col2">
+          <div class="latitude">
+            <p><strong>Latitude:</strong></p>
+            <span class="spanLatitude"></span>
+          </div>
+          <div class="longitude">
+            <p><strong>longitude:</strong></p>
+            <span class="spanLongitude"></span>
+          </div>
+          <div class="cep">
+            <p><strong>CEP:</strong></p>
+            <span class="spanCEP"></span>
+          </div>
+          <div class="areaDoPais">
+            <p><strong>Area do país:</strong></p>
+            <span class="spanAreaDoPais"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="avisos">
+    <div class="conteinerAvisos">
+      <span class="spanAvisos"></span>
+    </div>
+  </section>
+
+  <script src="src/js/script.js"></script>
+</body>
+
+</html>

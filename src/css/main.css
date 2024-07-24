@@ -1,0 +1,168 @@
+.conteiner{
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 230px;
+  gap: 90px;
+  padding-inline: 50px;
+}
+
+.ladoDireito{
+  width: 95%;
+  height: auto;
+  display: flex;
+  gap: 100px;
+  border: 1px solid #2a2b32;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+body.active .ladoDireito{
+  border: 1px solid #fffafa;
+}
+
+.LadoEsquerdo h1{
+  width: 20ch;
+  line-height: 52px;
+  font-size: 2.5rem;
+  letter-spacing: -0.8px;
+  color: #2a2b32;
+  padding-bottom: 20px;
+}
+
+.form{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input{
+  width: 80%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.form button{
+  width: 80%;
+  padding: 12px;
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  color: #ffff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.pais,.cidade,.latitude,.longitude,.estado,.cep{
+  padding-bottom: 30px;
+}
+
+@media (max-width: 1015px){
+  .LadoEsquerdo h1{
+    width: 15ch;
+  }
+  .conteiner{
+    gap: 70px;
+  }
+  .ladoDireito{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    border: 1px solid #2a2b32;
+    padding: 20px;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 865px){
+  .LadoEsquerdo h1{
+    width: 15ch;
+    font-size: 2rem;
+    line-height: 34px;
+    letter-spacing: 0px;
+  }
+  .conteiner{
+    gap: 20px;
+  }
+  .ladoDireito{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 750px){
+  .conteiner{
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  gap: 60px;
+  padding-inline: 30px;
+  }
+  .LadoEsquerdo h1{
+    width: 28ch;
+    line-height: 42px;
+    font-size: 2rem;
+    letter-spacing: 0px;
+    color: #2a2b32;
+    padding-bottom: 20px;
+  }
+  .ladoDireito{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 90px;
+    text-align: left;
+    border: 1px solid #2a2b32;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  .form button,.form input{
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px){
+  .conteiner{
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    gap: 60px;
+    padding-inline: 30px;
+    }
+    .LadoEsquerdo h1{
+      width: 28ch;
+      line-height: 32px;
+      font-size: 1.4rem;
+      letter-spacing: 0px;
+      color: #2a2b32;
+      padding-bottom: 20px;
+    }
+    .ladoDireito{
+      margin-top: -20px;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      border: 1px solid #2a2b32;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 2cqmin;
+    }
+    .pais,.cidade,.latitude,.longitude,.estado,.cep,.populaçao{
+      padding-bottom: 20px;
+    }
+}
